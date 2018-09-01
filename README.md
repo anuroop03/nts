@@ -1,7 +1,7 @@
 # nts
 Text to Speech (only Numbers) using arduino.
 
-*This program converts number to speech upto 6 digits.
+*This program converts number to speech upto 9 digits.
 
 *Requires TMRpcm Library and a SD card Reader.
 
