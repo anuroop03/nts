@@ -11,4 +11,4 @@ Text to Speech (only Numbers) using arduino.
 
 *Format the SD card.
 
-*Copy the WAV files to the root of SD card.
+*Copy the contents of WAV files folder to the root of SD card.
