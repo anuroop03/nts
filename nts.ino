@@ -34,39 +34,40 @@ void loop(){
     num/=num;
     i++;
   }
-  i--;
+  
   while(i)
 {
+ i--;
   switch(i)
   {
     case 8:sid(n[i]);
            tmrpcm.play("hundred.wav");
-           i--;
+           
     case 7:mid(n[i],n[i-1]);
            tmrpcm.play("million.wav");
-           i-=2;
+           i--;
            break;
     case 6:sid(n[i]);
            tmrpcm.play("million.wav");
-           i--;
+           
            break;
     case 5:sid(n[i]);
            tmrpcm.play("hundred.wav");
-           i--;
+           
            break;
     case 4:mid(n[i],n[i-1]);
            tmrpcm.play("thousand.wav");
-           i-=2;
+           i--;
            break;
     case 3:sid(n[i]);
            tmrpcm.play("thousand.wav");
            break;
     case 2:sid(n[i]);
            tmrpcm.play("hundred.wav");
-           i--;
+           
            break;
     case 1:mid(n[i],n[i-1]);
-           i-=2;
+           i--;
            break;
     case 0:sid(n[i]);
            break;
